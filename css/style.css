@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Roboto','Times New Roman', serif;
+}
+.naranja-l{
+   color: rgb(255, 132, 50) ;
+}
+.naranja-b{
+    background: rgb(255, 132, 50) ;;
+}
+.flex-box{
+    display: flex;
+    border: .1px solid transparent;
+}
+/* cabezera */
+.cabezera{
+    background: rgb(253, 93, 1);
+    /* height: 7vw; */
+    height:90px;
+    border:.1px solid transparent;
+    /* width: 100vw; */
+    padding:10px;
+}
+
+.izq,
+.centro,
+.der {
+    object-fit:cover;
+    width: 33.33vw;
+    height: 90px;
+    /* height:7vw; */
+    /* background:blue;
+    border:3px solid black;  */
+    margin:0px;
+}
+.objeto-linea {
+    display: inline-block;
+}
+/* izquierda-cabezera */
+.flecha {
+    text-decoration: none;
+    color:white;
+    min-width: fit-content;
+    font-size:25px;
+    /* font-size: 2.1vw; */
+    margin-left:5px ;
+    margin-right: 10px;
+    /* margin-left: 0.35vw ;
+    margin-right: 0.35vw; */
+    /* font-weight: bold; */
+    /* background:red; */
+}
+/* 100px - 7vw */
+.buscador{
+    width:200px;
+    height:50px;
+    margin:20px 5px;
+    /* width:14vw;
+    height:4.2vw;
+    margin:1.4vw 0.35vw; */
+}
+
+/* centro */
+.ubicacion {
+    margin:auto;
+    color:white;
+    min-width:min-content;
+    min-height:min-content;
+    font-size: 18px;
+    /* font-size:1.26vw; */
+}
+
+/* derecha */
+.menu-holder{
+    /* position: relative; */
+    /* background-color:green; */
+    min-height:fit-content;
+    width:120px;
+    margin:auto 0 auto auto;
+    align-items: center;
+    
+}
+
+.icon {
+  
+    padding:0px;
+    border: 2px solid white;
+    /* border: 0.1vw solid white; */
+    background:white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    /* width: 1.4vw;
+    height: 1.4vw; */
+    object-fit:cover;
+    margin-right: 20px;
+    max-height: fit-content;
+    max-width: fit-content;
+
+}
+
+.icon-holder {
+
+/* background:black; */
+max-height: fit-content;
+max-width: fit-content;
+
+}
+.menu-icon {
+    text-decoration: none;
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-right{
+    background:white;
+}
+.container-main{
+    height:fit-content;
+}
+.canasta{
+    float:right;
+    width:300px;
+    height:840px;
+    box-shadow:0px 10px 10px lightgrey;
+    border: 2px solid lightgrey;
+}
+
+.titulo-canasta{
+    height:60px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    font-size: x-large;
+    text-align: center;
+    line-height: 75px;
+    width:inherit;
+   
+}
+.titulo-canasta>span{
+    display:inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color:rgb(13, 80, 102);
+    font-size: 25px; 
+    font-weight: bold;
+}
+.canasta-ico{
+    position:relative;
+    height: 150px;
+    align-items:center;
+   border:1px solid transparent ;
+
+}
+.basket{
+   display:block;
+    height:50px;
+    width:50px;
+    margin:50px auto 20px;
+}
+.j{
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(13, 80, 102);
+}
+.descripcion {
+    font-size:15px;
+    color:grey;
+    text-align:center;
+    margin:auto;
+    height:20px;
+}
+/* restaurante */
+.restaurante-padre{
+    width:fill;
+    height:fill;
+}
+
+.banner{
+    position: relative;
+    height:210px;
+    /* background:darkcyan; */
+    margin:0;
+    
+
+}
+.banner-img{
+    display: block;
+    position:absolute;
+    width:80vw;
+    height:210px;
+    object-fit: cover;
+    margin:0;
+    z-index: -1
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    bottom:40px;
+    left:40%;
+
+}
+
+.review{
+    position: relative;
+    width:fill;
+    height:100px;
+    background:white;
+    display:flex;
+    gap: 640px;
+    align-items: center;
+
+}
+.review-der{
+    float:left;
+    width:40%;
+    height:fit-content;
+    padding-bottom:10px;
+    /* background:green; */
+    margin:0px;
+    text-align: left;
+    
+}
+.blue{
+    color:rgb(13, 80, 102);
+}
+.review-info{
+    padding-left:40px;
+    padding-top:30px;
+    padding-bottom: 0px;
+    margin:0px;
+    vertical-align: baseline;
+}
+.link{
+    text-decoration: none;
+    color:rgb(255, 132, 50);
+    text-decoration: underline;
+
+}
+.rating{
+    display:inline;
+    width:15px;
+    height:15px;
+    margin-top:4px;
+    margin-bottom:4px
+}
+/* .review-izq{
+    float:right;
+    position:relative;
+    height:100px;
+    width:40%;
+    background:cornflowerblue;
+} */
+.icono{
+    display:inline-block;
+    height:30px;
+    width:30px;
+    object-fit:cover;
+    margin:0px;
+    padding:0px;
+    border:1px solid lightgrey;
+}
+/* .finder-item{
+    margin:4px;
+    font-size:15px;
+    text-align:center;
+}
+.finder-next{
+    font-size:20px;
+    font-weight: bold;
+} */
+.menu-finder{
+    position:relative;
+    background-color:rgb(255, 236, 225);
+    height:30px;
+    width:80vw;
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align:center;
+    border:0px solid transparent;
+}
+
+.links{
+    text-decoration:none;
+}
+.hover:hover{
+    background-color:rgb(255, 132, 50) ;
+    color:white;
+    border-radius:10px 10px
+}
+.finder-item{
+    text-align:center;
+    margin-right:10px;
+    font-size:15px;
+    padding:3px;
+}
+.flecha-next{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:50px;
+    margin-right:0px;
+}
+.finder-ico{
+    position:absolute;
+    height:30px;
+    width:30px;
+    object-fit: cover;
+    left:70px;
+    top:20%;
+}
+.menu-container{
+    width:fill;
+    height:400px;
+    background-color:white;
+    overflow-y: scroll;
+    padding: 0px 75px 0px;
+    margin:0px;
+    border:0.1px solid transparent;
+}
+.searched-item{
+    background-color:rgb(255, 236, 225);
+    height:30px;
+    width:fill;
+    padding: 10px 10px 0px;
+    text-align:left;
+    border:0px solid transparent;
+    margin:10px;
+}
+.flex-box-menu{
+    display:flex;
+    vertical-align: middle;
+    position: relative;
+    background-color:white;
+    width:fill;
+    height:fit-content;
+    margin:10px;
+    border:1px solid lightgrey;
+    box-shadow:0px 0px 4px lightgrey;
+    padding:10px;
+}
+.titulo-info{
+    display:inline
+}
+.ver-mas{
+    font-size:30px;
+    width:fit-content;
+    text-align: center;
+    height:25px;
+    padding:0px 5px 7px;
+    margin:0px;
+    font-weight: bold;
+    background-color:white;
+    border:1px solid lightgray;
+    box-shadow:0px 0px 4px lightgray;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+.product-info{
+    text-decoration: none;
+    color:rgb(0, 136, 221);
+    margin-left:2px;
+    font-size:12px
+}

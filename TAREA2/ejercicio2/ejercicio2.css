@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.contenedor{
+    /* display:flex; */
+    background-color:rgb(219, 62, 62);
+}
+.titulo{
+    margin:auto;
+    font-size: 40px;
+    font-weight:bold;
+    
+}
+.cont-titulo{
+    width:100vw;
+    height: 100px;
+    background-color:rgb(240, 240, 73);
+    /* display:flex; */
+    text-align:center;
+
+}
+.titulo-b{
+    margin-top:10px;
+    font-size:30px;
+    background: rgb(223, 204, 123);
+}
+.tabla{
+    margin:10px auto;
+    border-collapse: collapse;
+    border:2px solid black;
+    padding:5px;
+}
+th,td{
+    border:1.5px solid black;
+    padding:5px;
+    text-align:center;
+    background:rgb(92, 92, 212);
+}
+th{
+    font-size:20px;
+}
